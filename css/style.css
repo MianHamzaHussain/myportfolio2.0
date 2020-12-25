@@ -1,0 +1,149 @@
+.navbar {
+  margin-top: 2%;
+}
+.btn1 {
+  background-color: #ffff;
+  color: #6b0fe1;
+  border: 2px solid;
+  border-radius: 23px;
+  padding: 8px 22px 8px 22px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.btn2 {
+  background-color: #ffff;
+  padding: 0px 20px 0px 20px;
+  border: 2px solid #6b0fe1;
+  border-radius: 20px;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  background-color: #6b0fe1;
+  color: #ffff;
+}
+
+.c1 {
+  margin-top: 10%;
+}
+
+.c2 {
+  background-color: #6b0fe1;
+  padding-bottom: 10%;
+  margin-top: 0;
+  height: auto;
+  position: absolute;
+}
+
+.c2 h2 {
+  color: #ffff;
+  margin-top: 8%;
+  text-align: center;
+}
+.pur {
+  color: #6b0fe1;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 69px;
+}
+.c3 .card {
+  height: 75vh;
+}
+.c5 {
+  margin-top: 10%;
+}
+.c6 {
+  background-color: #6b0fe1;
+  position: absolute;
+  color: #ffff;
+  padding-bottom: 12%;
+}
+.c7 {
+  position: absolute;
+  bottom: 70px;
+  line-height: 200%;
+  letter-spacing: 1px;
+}
+.c7 .card {
+  height: 50vh;
+}
+.c7 img {
+  height: 30px;
+  width: 70px;
+}
+#carousel-testimonials {
+  text-align: center;
+}
+#carousel-testimonials .carousel-item {
+  transition: 1s linear;
+}
+#carousel-testimonials .blockquote {
+  font-style: italic;
+  font-weight: bold;
+}
+#carousel-testimonials small {
+  text-align: right;
+}
+#carousel-testimonials i {
+  color: #222;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .carousel-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  #carousel-testimonials.blockquote {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  #carousel-testimonials small {
+    text-align: center;
+    display: block;
+  }
+}
+
+.c8 {
+  background-color: #222;
+  color: #ffff;
+  position: relative;
+  top: 50px;
+}
+.btn3 {
+  background-color: #222;
+  color: #ffff;
+  border: 2px solid #6b0fe1;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+}
+.c9 {
+  background-color: #6b0fe1;
+  height: auto;
+  color: #ffff;
+}
+.fa {
+  color: #ffff;
+  text-align: center;
+  font-size: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #854ad1;
+  padding-top: 15px;
+  margin-top: 2px;
+  border-radius: 25px;
+  background-color: #6b0fe1;
+}
+
+.fa:hover {
+  background-color: white;
+  color: blue;
+}
+.fa-copyright {
+  border: none;
+}
